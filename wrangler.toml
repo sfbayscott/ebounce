@@ -1,0 +1,7 @@
+name = "aceppe-email-prefilter"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "ea97abd709ef475c9c31f66b85f7eb1f"
