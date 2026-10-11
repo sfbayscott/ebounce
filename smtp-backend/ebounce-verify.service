@@ -1,0 +1,17 @@
+[Unit]
+Description=eBounce SMTP verification backend
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/ebounce
+ExecStart=/usr/bin/python3 /opt/ebounce/smtp_verify.py
+Environment=EBOUNCE_VERIFY_SECRET=REPLACE_WITH_LONG_RANDOM_SECRET
+Environment=EBOUNCE_VERIFY_PORT=8787
+Environment=EBOUNCE_MAIL_FROM=verify@ebounce.custmax.com
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
