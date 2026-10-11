@@ -24,3 +24,7 @@ Validate emails on Contact Form 7, WooCommerce and WP registration forms:
 ## License
 
 MIT
+
+## About
+
+eBounce is built by [Aceppe](https://www.aceppe.com/) — a Shenzhen-based manufacturer of industrial PPE (safety gloves, respiratory protection, safety apparel), EU PPE 2016/425 certified, serving B2B buyers worldwide.
